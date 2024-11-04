@@ -20,13 +20,7 @@ This package tested under ROS2 Humble. Also, IsaacSim version is 4.1 and IsaacLa
     sudo apt-get update
     sudo apt install git
 ```
-**Note** : Set up your configuration before creating a workspace according to [Stackoverflow](https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal). Also, GCM ensures that you do not constantly write the token for your GitHub account.
-```
-    git config --global credential.helper store 
-    echo "https://username:token@github.com" >> ~/.git-credentials
-    usarname: github_username
-    token: xxx_xxxx
-``` 
+
 ### Pre-install Workspace
 Clone Repository
 ```
