@@ -40,7 +40,7 @@ Add the following block at the end of .bashrc. You have to pay attention about t
 	export ROS_DOMAIN_ID=0
 	export FASTRTPS_DEFAULT_PROFILES_FILE=${isaacsim_launcherDirectory}/isaacsim_ws/fastdds.xml
 	export _colcon_cd_root=/opt/ros/humble/
-	export ISAACSIM_PATH="${HOME}/.local/share/ov/pkg/isaac-sim-4.1.0/"
+	export ISAACSIM_PATH="${HOME}/.local/share/ov/pkg/isaac-sim-4.1.0"
 	export ISAACSIM_PYTHON_EXE="${ISAACSIM_PATH}/python.sh"
 	### EXPORTS
 	###################
