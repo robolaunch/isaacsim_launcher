@@ -4,7 +4,7 @@
 
 <h1 align="center"> Isaac Simulation Launcher Package </h1>
 
-This package tested under ROS2 Humble. Also, IsaacSim version is 4.1 and IsaacLab version is v1.1.0.
+This package tested under ROS2 Humble. Also, IsaacSim version is 4.2 and IsaacLab version is v1.3.0.
 
 # Prequest
 ```
@@ -12,6 +12,7 @@ This package tested under ROS2 Humble. Also, IsaacSim version is 4.1 and IsaacLa
     ROS2 Humble
     GitHub
     NVIDIA Omniverse Launcher 
+    Isaac Sim 4.2
     Miniconda
 ```
 ## Setting
@@ -40,7 +41,7 @@ Add the following block at the end of .bashrc. You have to pay attention about t
 	export ROS_DOMAIN_ID=0
 	export FASTRTPS_DEFAULT_PROFILES_FILE=${isaacsim_launcherDirectory}/isaacsim_ws/fastdds.xml
 	export _colcon_cd_root=/opt/ros/humble/
-	export ISAACSIM_PATH="${HOME}/.local/share/ov/pkg/isaac-sim-4.1.0"
+	export ISAACSIM_PATH="${HOME}/.local/share/ov/pkg/isaac-sim-4.2.0"
 	export ISAACSIM_PYTHON_EXE="${ISAACSIM_PATH}/python.sh"
 	### EXPORTS
 	###################
